@@ -9,7 +9,7 @@ module.exports = function (app) {
 
   app.route('/api/converter')
   .get(function(req, res){
-    let request.query.input;
+    let input =  request.query.input;
     let initNum = convertHandler.getNum(input);
     let initUnit = convertHandler.getNum(input);
 
